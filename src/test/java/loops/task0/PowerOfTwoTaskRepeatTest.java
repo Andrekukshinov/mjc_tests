@@ -1,6 +1,7 @@
-package loops.loopsFor;
+package loops.task0;
 
 import base.BaseIOTest;
+import loops.task0.MainTaskRepeat;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
@@ -12,7 +13,7 @@ import java.util.stream.Collectors;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class FillGapsAppTaskRepeatTest extends BaseIOTest {
+public class PowerOfTwoTaskRepeatTest extends BaseIOTest {
 
     @Test
     void repeatIsBad() {
@@ -29,7 +30,7 @@ public class FillGapsAppTaskRepeatTest extends BaseIOTest {
 
     @Test
     public void containsNoLoopsOrSteams() throws IOException {
-        Path path = Paths.get("src/main/java/loops/loopsFor/MainTaskRepeat.java");
+        Path path = Paths.get("src/main/java/loops/task1/MainTaskRepeat.java");
         List<String> strings = Files.readAllLines(path);
 
         List<String> result = strings.stream()

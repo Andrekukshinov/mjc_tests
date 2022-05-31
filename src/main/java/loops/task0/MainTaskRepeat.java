@@ -1,4 +1,4 @@
-package loops.loopsFor;
+package loops.task0;
 
 public class MainTaskRepeat {
     public void repeatIsBad(){

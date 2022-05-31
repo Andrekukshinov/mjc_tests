@@ -1,7 +1,7 @@
-package loops.loopsFor;
+package loops.finalTask;
 
 import base.BaseIOTest;
-import loops.loopsFor.LeastCommonMultiple;
+import loops.finalTask.LeastCommonMultiple;
 import org.junit.jupiter.api.Test;
 
 class LeastCommonMultipleTest extends BaseIOTest {
